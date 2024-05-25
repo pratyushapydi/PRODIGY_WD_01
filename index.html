@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Navigation Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home">Home</a></li>
+                <li class="nav-item"><a href="#about">About</a></li>
+                <li class="nav-item"><a href="#services">Services</a></li>
+                <li class="nav-item"><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="home" class="content-section">
+        <div class="container">
+            <h1>Welcome to Our Website</h1>
+            <p>Discover amazing content and learn more about our offerings.</p>
+            <p>Scroll down to explore more!</p>
+        </div>
+    </div>
+    <div id="about" class="content-section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a team of passionate individuals dedicated to providing the best service possible.</p>
+            <p>Our mission is to deliver high-quality products that bring value to our customers.</p>
+            <p>Founded in 2020, we have consistently grown and expanded our reach globally.</p>
+        </div>
+    </div>
+    <div id="services" class="content-section">
+        <div class="container">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Service 1: Comprehensive Consulting</li>
+                <li>Service 2: 24/7 Customer Support</li>
+                <li>Service 3: Customized Solutions</li>
+                <li>Service 4: Training and Workshops</li>
+            </ul>
+            <p>We offer a range of services tailored to meet the unique needs of our clients.</p>
+        </div>
+    </div>
+    <div id="contact" class="content-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Whether you have a question about our services, pricing, or anything else, our team is ready to answer all your questions.</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
